@@ -1,4 +1,4 @@
-package com.java.projects.ResumePortal.models;
+package com.java.projects.ResumePortal;
 
 import javax.annotation.Generated;
 import javax.persistence.Entity;
@@ -18,6 +18,12 @@ public class User {
 	private String password;
 	private boolean active;
 	private String roles;
+	
+	
+	
+	public User() {
+		super();
+	}
 	public int getId() {
 		return id;
 	}

@@ -1,4 +1,4 @@
-package com.java.projects.ResumePortal.Controller;
+package com.java.projects.ResumePortal;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,5 +11,11 @@ public class ResumePortalController {
 	public String getResponse()
 	{
 		return "Hello";
+	}
+	
+	@GetMapping("/edit")
+	public String editResponse()
+	{
+		return "Edit";
 	}
 }
