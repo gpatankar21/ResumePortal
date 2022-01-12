@@ -14,6 +14,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.java.projects.ResumePortal.models.User;
+
 public class MyUserDetails implements UserDetails{
 
 		private String userName;

@@ -1,4 +1,4 @@
-package com.java.projects.ResumePortal;
+package com.java.projects.ResumePortal.models;
 
 import javax.annotation.Generated;
 import javax.persistence.Entity;
